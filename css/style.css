@@ -68,6 +68,8 @@ body {
   font-weight: 100;
   border-radius: 1%;
   border-color: #FFFFFF;
+  display: flex;
+  line-height: 28px;
 }
 
 .btn-toggle {
@@ -133,6 +135,17 @@ body {
     font-size: 20px;
     transition: all 0.5s;
     text-shadow: 1px 1px 2px gray;
+  }
+}
+@media (max-width: 576px) {
+  body {
+    margin: 90px 0px 0px;
+  }
+  .navbar {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 0px;
+    margin-right: 0px;
   }
 }
 
