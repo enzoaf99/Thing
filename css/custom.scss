@@ -1,0 +1,44 @@
+//Definición de colores
+$blue:    #0d6efd;
+$indigo:  #6610f2;
+$purple:  #6f42c1;
+$pink:    #d63384;
+$red:     #dc3545;
+$orange:  #fd7e14;
+$yellow:  #ffc107;
+$green:   #198754;
+$teal:    #20c997;
+$cyan:    #0dcaf0;
+//
+$primary: #022B3A;
+$secondary:     $red;
+//$success:       $green;
+//$info:          $cyan;
+//$warning:       $yellow;
+//$danger:        $red;
+//$light:         $gray-100;
+//$dark:          $gray-900;
+
+//Otras personalizaciones
+$font-family-base: 'Inter', sans-serif;
+
+//Importación de Bootstrap
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+//Estilos
+
+.nav-link{
+    color: #022b3a3d;
+}
+.nav-link:hover{
+    color: $primary;
+}
+
+.active-link{
+    color: $primary;
+}
+
+.container{
+    margin-left: 120px;
+    margin-right: 120px;
+}

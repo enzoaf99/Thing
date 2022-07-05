@@ -4,33 +4,41 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Fuentes-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;700;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
-    <script src="https://kit.fontawesome.com/42112eb55b.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;600;700;800&display=swap" rel="stylesheet">
+    <!--Estilos-->
+    <link rel="stylesheet" href="css/custom.css">
+    <!--Scripts-->
+    <script defer src="index.js"></script>
+    <!--Otros-->
     <link rel="icon" type="image/x-icon" href="img/favicon.png">
     <title>Thing Desarrollo y diseño web</title>
-    <script defer src="index.js"></script>
 </head>
 <body>
+
     <!--Navbar-->
-    <header class="header-navbar">
-        <nav class="navbar">
-            <a href="https://www.thing.com.ar/" class="navbar-brand"><img class="navbar-logo" src="img/logo.png" alt="Thing" width="85.3" height="32.9"></a>
-            <ul class="navbar-list">
-                <li class="navbar-item"><a href="#inicio" class="navbar-link">Inicio</a></li>
-                <li class="navbar-item"><a href="#servicios" class="navbar-link">Servicios</a></li>
-                <li class="navbar-item"><a href="#nosotros" class="navbar-link">Nosotros</a></li>
-                <li class="navbar-item"><a href="#contacto" class="navbar-link">Contacto</a></li>
-            </ul>
-            <h4 href="" class="btn-contacto">Contactanos</h4>
-            <button class="btn-toggle"><i class="fa-solid fa-bars"></i></button>
+    <header class="header">
+        <nav class="navbar navbar-expand-lg bg-light fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="https://www.thing.com.ar/">
+                    <img src="img/logodarkblue.png" alt="" width="85.3" height="32.9" class="d-inline-block align-text-top">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav mx-auto">
+                    <a class="nav-link active-link" href="#inicio">Inicio</a>
+                    <a class="nav-link" href="#servicios">Servicios</a>
+                    <a class="nav-link" href="#nosotros">Nosotros</a>
+                    <a class="nav-link" href="#contacto">Contacto</a>
+                    </div>
+                </div>
+                <button class="btn btn-outline-primary btn-sm" style="font-size: 12px !important;" type="submit">Mas información aquí</button>
+            </div>
         </nav>
     </header>
-    
-    <!--Hero-->
-
-    
 </body>
 </html>
