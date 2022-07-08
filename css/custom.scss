@@ -27,6 +27,10 @@ $font-family-base: 'Inter', sans-serif;
 
 //Estilos
 
+body{
+    background-color: #022B3A;
+}
+
 .nav-link{
     color: #022b3a3d;
 }
@@ -38,7 +42,17 @@ $font-family-base: 'Inter', sans-serif;
     color: $primary;
 }
 
-.container{
-    margin-left: 120px;
-    margin-right: 120px;
+.btn-contacto{
+    display: none;
+    font-size: 12px !important;
+}
+
+
+@media screen and (min-width: 992px){
+
+.btn-contacto{
+    display: block;
+    font-size: 12px !important;
+}
+
 }

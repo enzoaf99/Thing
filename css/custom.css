@@ -10722,6 +10722,10 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+body {
+  background-color: #022B3A;
+}
+
 .nav-link {
   color: rgba(2, 43, 58, 0.2392156863);
 }
@@ -10734,9 +10738,16 @@ textarea.form-control-lg {
   color: #022B3A;
 }
 
-.container {
-  margin-left: 120px;
-  margin-right: 120px;
+.btn-contacto {
+  display: none;
+  font-size: 12px !important;
+}
+
+@media screen and (min-width: 992px) {
+  .btn-contacto {
+    display: block;
+    font-size: 12px !important;
+  }
 }
 
 /*# sourceMappingURL=custom.css.map */
